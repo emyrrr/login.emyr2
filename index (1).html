@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johan</title>
+    <link rel="stylesheet" href="hoja.css">
+</head>
+<body>
+    <header>
+        <h1>MI PRIMER LOGIN</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="LoginForm" onsubmit="return chequeLogin(event)">
+            <input type="email" name="email" id="email" placeholder="Ingrese tu gmail" required>
+            <input type="password" name="password" id="password" placeholder="Ingrese contraseña" required>
+            <input type="submit" value="Ingrese">
+        </form>
+        <p id="LoginMensaje"></p>
+    </main>
+    <footer><p>Todos los derechos son míos</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
